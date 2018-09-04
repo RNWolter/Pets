@@ -11,10 +11,11 @@ import UIKit
 class PetsTableViewController: UITableViewController {
     
     
-    let pets = ["Barney the Mighty Cocker Spaniel","Kiwi the Stinky Ferret", "Deedee the Dachshund", "Clara Bell the Sweet Lab","Burger the Not-So-Sweet Rotweiler","I would like the following: ","Monkey","Bear", "Frog"]
+   
+    var petsController = PetsController()
     
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -35,7 +36,7 @@ class PetsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return pets.count
+        return petsController.pets.count
     }
 
     
@@ -44,7 +45,7 @@ class PetsTableViewController: UITableViewController {
 
         // Configure the cell..
         
-        let pet = pets[indexPath.row]
+        let pet = petsController.pets[indexPath.row]
         cell.textLabel?.text = pet
         return cell
     }

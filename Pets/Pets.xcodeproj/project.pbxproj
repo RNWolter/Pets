@@ -12,6 +12,7 @@
 		1CE6633C213626F5006419F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE6633B213626F5006419F1 /* Assets.xcassets */; };
 		1CE6633F213626F5006419F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE6633D213626F5006419F1 /* LaunchScreen.storyboard */; };
 		1CE663472136355D006419F1 /* PetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE663462136355D006419F1 /* PetsTableViewController.swift */; };
+		1CF0C613213EF7010075572C /* PetsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0C612213EF7010075572C /* PetsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1CE6633E213626F5006419F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CE66340213626F5006419F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CE663462136355D006419F1 /* PetsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsTableViewController.swift; sourceTree = "<group>"; };
+		1CF0C612213EF7010075572C /* PetsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1CE6633D213626F5006419F1 /* LaunchScreen.storyboard */,
 				1CE66340213626F5006419F1 /* Info.plist */,
 				1CE663462136355D006419F1 /* PetsTableViewController.swift */,
+				1CF0C612213EF7010075572C /* PetsController.swift */,
 			);
 			path = Pets;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CE66335213626F4006419F1 /* AppDelegate.swift in Sources */,
+				1CF0C613213EF7010075572C /* PetsController.swift in Sources */,
 				1CE663472136355D006419F1 /* PetsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

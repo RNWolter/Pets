@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+
+
+class PetsController {
+    
+    
+    init(){}
+    
+    let pets = ["Barney the Mighty Cocker Spaniel","Kiwi the Stinky Ferret", "Deedee the Dachshund", "Clara Bell the Sweet Lab","Burger the Not-So-Sweet Rotweiler","I would like the following: ","Monkey","Bear", "Frog"]
+    
+    
+    
+}
